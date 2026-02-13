@@ -6,31 +6,38 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useMemo, useState } from "react";
 
 const slides = [
+  { title: "ETH-X", subtitle: "Ethereum Reimagined for the Next Era" },
   { title: "BMVERSE", subtitle: "The Infrastructure of Digital Civilization" },
   { title: "ANTVERSE", subtitle: "Where Identity Evolves" },
   { title: "QUANTELIUM", subtitle: "Intelligence Engineered" },
 ];
 
-function NavAnchor({
-  href,
+function scrollToId(id: string) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  el.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function NavButton({
+  id,
   children,
 }: {
-  href: string;
+  id: string;
   children: React.ReactNode;
 }) {
   return (
-    <a
-      href={href}
+    <button
+      type="button"
+      onClick={() => scrollToId(id)}
       className="text-sm text-white/70 hover:text-white transition"
     >
       {children}
-    </a>
+    </button>
   );
 }
 
 export default function HeroV5() {
   const [index, setIndex] = useState(0);
-
   const current = useMemo(() => slides[index], [index]);
 
   useEffect(() => {
@@ -46,7 +53,7 @@ export default function HeroV5() {
       <ClientCanvas />
 
       {/* Dark overlay for readability */}
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/70" />
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/75" />
 
       {/* Glass Navbar */}
       <header className="absolute top-0 z-20 w-full">
@@ -59,10 +66,10 @@ export default function HeroV5() {
           </Link>
 
           <nav className="hidden md:flex items-center gap-8">
-            <NavAnchor href="#ecosystem">Ecosystem</NavAnchor>
-            <NavAnchor href="#intelligence">Intelligence</NavAnchor>
-            <NavAnchor href="#marketplace">Marketplace</NavAnchor>
-            <NavAnchor href="#team">Team</NavAnchor>
+            <NavButton id="ecosystem">Ecosystem</NavButton>
+            <NavButton id="intelligence">Intelligence</NavButton>
+            <NavButton id="marketplace">Marketplace</NavButton>
+            <NavButton id="team">Team</NavButton>
           </nav>
 
           <div className="flex items-center gap-3">
@@ -112,35 +119,39 @@ export default function HeroV5() {
               Enter BMverse
             </Link>
 
-            <a
-              href="#ecosystem"
+            <button
+              type="button"
+              onClick={() => scrollToId("ecosystem")}
               className="rounded-full border border-white/20 px-8 py-4 text-sm font-semibold text-white hover:border-white/60 transition inline-flex items-center justify-center"
             >
               Explore Ecosystem
-            </a>
+            </button>
 
-            <Link
-              href="/worlds/antverse"
+            {/* NOTE: we removed /worlds/antverse because GitHub Pages export disables dynamic routes */}
+            <button
+              type="button"
+              onClick={() => scrollToId("ecosystem")}
               className="rounded-full border border-white/10 bg-white/5 px-8 py-4 text-sm font-semibold text-white hover:bg-white/10 transition inline-flex items-center justify-center"
             >
               Enter ANTverse
-            </Link>
+            </button>
           </div>
 
           {/* Scroll hint */}
           <div className="mt-14 flex justify-center">
-            <a
-              href="#ecosystem"
+            <button
+              type="button"
+              onClick={() => scrollToId("ecosystem")}
               className="group inline-flex items-center gap-2 text-xs text-white/50 hover:text-white/70 transition"
             >
               <span className="h-1.5 w-1.5 rounded-full bg-white/40 group-hover:bg-white/70 transition" />
               Scroll to Ecosystem
-            </a>
+            </button>
           </div>
         </div>
       </div>
 
-      {/* Sections anchors (these IDs MUST exist on the homepage below hero) */}
+      {/* Smooth scroll */}
       <style jsx global>{`
         html {
           scroll-behavior: smooth;
