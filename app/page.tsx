@@ -1,10 +1,5 @@
-import HeroV5Client from "@/components/hero/HeroV5Client";
+import MarketingHome from "./(marketing)/page";
 
-export default function Home() {
-  return (
-    <main className="bg-[#050507] text-white">
-      <HeroV5Client />
-    </main>
-  );
+export default function Page() {
+  return <MarketingHome />;
 }
-
