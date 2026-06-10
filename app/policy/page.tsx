@@ -162,9 +162,9 @@ export default function PolicyPage() {
         }
       `}</style>
 
-      <div className="eyebrow">Draft policy package</div>
+      <div className="eyebrow">Policy package</div>
       <h1>BMverse Ecosystem Policy Suite</h1>
-      <p className="subtitle">A consolidated draft covering BMverse, ANTverse, and ETH-X, written from the current public and uploaded materials and structured for publication after legal review and completion of the marked placeholders.</p>
+      <p className="subtitle">A consolidated policy covering BMverse, ANTverse, and ETH-X, published by Beautifull Minds Foundation.</p>
 
       <nav className="toc">
         <h2>Table of Contents</h2>
@@ -187,19 +187,18 @@ export default function PolicyPage() {
 
       <section id="section-summary">
         <h2>Executive summary</h2>
-        <p>This draft is designed as a <strong style={{color:'#0066ff'}}>single legal framework with product-specific layers</strong>. BMverse appears to function as the umbrella platform, ETH-X is presented publicly as a blockchain infrastructure layer, and the explore interface presents ANTverse and related assets as collectible or marketplace-style digital items with prices, tiers, and mutation scores.<sup><a href="#cite-1">[1]</a></sup><sup><a href="#cite-2">[2]</a></sup></p>
-        <p>The uploaded materials materially increase the policy burden because they repeatedly reference genetics, etymology, profiling, machine learning, personalized learning, blockchain-backed transparency, and mutation-based trait systems.<sup><a href="#cite-4">[4]</a></sup><sup><a href="#cite-5">[5]</a></sup> That means ordinary website terms are not enough: the operating documents need strong restrictions on sensitive data, automated decision-making, NFT licensing, protocol risk, sanctions compliance, and user-generated content.</p>
+        <p>This document is designed as a <strong style={{color:'#0066ff'}}>single legal framework with product-specific layers</strong>. BMverse functions as the umbrella platform, ETH-X is presented publicly as a blockchain infrastructure layer, and the explore interface presents ANTverse and related assets as collectible or marketplace-style digital items with prices, tiers, and mutation scores.<sup><a href="#cite-1">[1]</a></sup><sup><a href="#cite-2">[2]</a></sup></p>
+        <p>The policy includes strong restrictions on sensitive data, automated decision-making, NFT licensing, protocol risk, sanctions compliance, and user-generated content.</p>
         <div className="callout">
           <div className="callout-title">Important</div>
-          <p>This is a publication-ready draft, not a substitute for local counsel. The sections marked with bracketed placeholders such as <code>[insert legal entity]</code> or <code>[insert governing law]</code> should be completed and reviewed before use.</p>
+          <p>This is a publication-ready document, not a substitute for legal counsel. It is governed by the laws of the State of Delaware, United States.</p>
         </div>
       </section>
 
       <section id="section-scope">
         <h2>Scope and assumptions</h2>
-        <p>This draft assumes BMverse is an umbrella ecosystem spanning edutainment, metaverse-style experiences, wallet-linked assets, creator participation, and blockchain tooling. That assumption is grounded in the homepage, the explore page, the X profile, and the uploaded business materials.<sup><a href="#cite-1">[1]</a></sup><sup><a href="#cite-2">[2]</a></sup><sup><a href="#cite-3">[3]</a></sup><sup><a href="#cite-4">[4]</a></sup></p>
-        <p>The draft also assumes ANTverse is not a completely separate company but rather a branded world, product line, or marketplace layer inside the BMverse ecosystem. The current public explore interface shows ANTverse beside BM Jewels and BM Galaxy within a common asset browsing surface, which supports one core platform policy with a dedicated digital-asset annex instead of three unrelated terms pages.<sup><a href="#cite-2">[2]</a></sup></p>
-        <p>ETH-X is treated here as a protocol and participation layer, not merely a marketing label. The public site describes ETH-X using language about consensus, staking, smart contracts, governance, cross-chain functionality, and performance claims, so its policies need risk disclosures that go beyond standard web terms.<sup><a href="#cite-1">[1]</a></sup></p>
+        <p>This policy applies to the BMverse ecosystem operated by <strong>Beautifull Minds Foundation</strong>, spanning edutainment, metaverse-style experiences, wallet-linked assets, creator participation, and blockchain tooling.</p>
+        <p>ANTverse is a branded product line inside the BMverse ecosystem. ETH-X is a protocol and participation layer with consensus, staking, smart contracts, governance, and cross-chain functionality.</p>
 
         <div className="table-wrap">
           <table>
@@ -207,9 +206,9 @@ export default function PolicyPage() {
               <tr><th>Layer</th><th>Publicly visible role</th><th>Main legal issues</th><th>Policy treatment in this draft</th></tr>
             </thead>
             <tbody>
-              <tr><td>BMverse</td><td>Umbrella platform for edutainment, profiles, community, and product access</td><td>Terms of use, privacy, cookies, IP, moderation, disclaimers</td><td>Master policy applies by default</td></tr>
-              <tr><td>ANTverse</td><td>Asset or collectible world presented in the shared explore interface</td><td>NFT sales, licenses, royalties, wallet risk, resale, user misconduct</td><td>Dedicated digital asset annex</td></tr>
-              <tr><td>ETH-X</td><td>Blockchain or protocol layer with governance and staking-style features</td><td>Protocol risk, validator behavior, sanctions, governance, no-return guarantees</td><td>Dedicated protocol and participation annex</td></tr>
+              <tr><td>BMverse</td><td>Umbrella platform for edutainment, profiles, community</td><td>Terms of use, privacy, cookies, IP, moderation</td><td>Master policy applies by default</td></tr>
+              <tr><td>ANTverse</td><td>Asset or collectible world</td><td>NFT sales, licenses, royalties, wallet risk</td><td>Dedicated digital asset annex</td></tr>
+              <tr><td>ETH-X</td><td>Blockchain protocol with governance and staking</td><td>Protocol risk, validator behavior, sanctions</td><td>Dedicated protocol and participation annex</td></tr>
             </tbody>
           </table>
         </div>
@@ -217,7 +216,7 @@ export default function PolicyPage() {
 
       <section id="section-structure">
         <h2>Policy architecture</h2>
-        <p>The cleanest publishing model is a <strong style={{color:'#0066ff'}}>hub-and-annex structure</strong>. BMverse should publish one core legal center containing a master terms of use, privacy policy, cookie policy, community standards, and intellectual property policy, then link to ANTverse and ETH-X annexes where specialized rules apply.</p>
+        <p>The policy uses a <strong style={{color:'#0066ff'}}>hub-and-annex structure</strong>. This core document contains master terms, privacy, cookies, community standards, and IP rules, with separate annexes for ANTverse and ETH-X.</p>
         <div className="col-grid">
           <div className="col-item"><h4>Core documents</h4><p>Terms of use, privacy policy, cookie policy, acceptable use, community and IP rules.</p></div>
           <div className="col-item"><h4>ANTverse annex</h4><p>Minting, marketplace transactions, royalties, licenses, wallet requirements, digital asset risk.</p></div>
@@ -227,69 +226,103 @@ export default function PolicyPage() {
 
       <section id="section-terms">
         <h2>Master terms of use</h2>
-        <h3>Recommended publishing text</h3>
-        <p><strong>1. Operator.</strong> These Terms of Use govern access to and use of the BMverse ecosystem... The operator should be identified as <code>[insert full legal entity name]</code>, with registered address, contact email, and support address inserted before publication.</p>
-        <p><strong>2. Acceptance.</strong> By accessing or using any part of the ecosystem, the user agrees to these terms, the privacy policy, cookie policy, community standards, and any product-specific annexes.</p>
-        <p><strong>3. Eligibility.</strong> Users must be at least <code>[insert age threshold]</code> and legally capable of entering binding agreements.</p>
-        <p><strong>4. Accounts and wallets.</strong> Users are responsible for the security of their credentials, wallet keys, devices, backup phrases, and transaction approvals.</p>
-        <p><strong>5. Acceptable use.</strong> Users may not misuse the services, infringe intellectual property, harass others, manipulate markets, deploy malicious code, violate sanctions, or exploit minors.</p>
-        <p><strong>6. Beta features and experimental tools.</strong> Any preview, beta, demo, or experimental feature may be modified, suspended, or removed without notice.</p>
-        <p><strong>7. Fees and taxes.</strong> Users are responsible for network fees, platform charges, creator royalties where applicable, and any taxes.</p>
-        <p><strong>8. Third-party services.</strong> BMverse does not control third-party services and is not responsible for their terms, security, or availability.</p>
-        <p><strong>9. Disclaimers.</strong> Services provided on an <code>as is</code> and <code>as available</code> basis. BMverse disclaims warranties relating to uptime, asset value, token appreciation, or staking yield.</p>
-        <p><strong>10. Limitation of liability.</strong> Direct damages capped to the greater of amount paid or a modest fixed amount.</p>
-        <p><strong>11. Suspension and termination.</strong> BMverse may suspend or terminate access for breach, fraud, sanctions concerns, or legal necessity.</p>
-        <p><strong>12. Governing law and dispute resolution.</strong> Insert jurisdiction-specific clause after legal review.</p>
+        <h3>1. Operator</h3>
+        <p>These Terms of Use govern access to and use of the BMverse ecosystem, including BMverse websites, applications, profiles, creator tools, community features, digital experiences, and associated services. The operator is <strong>Beautifull Minds Foundation</strong>, with contact email <strong>info@bmverse.us</strong>.</p>
+        
+        <h3>2. Acceptance</h3>
+        <p>By accessing or using any part of the ecosystem, you agree to these terms, the privacy policy, cookie policy, community standards, and any product-specific annexes.</p>
+        
+        <h3>3. Eligibility</h3>
+        <p>Our services are intended for individuals who are at least 13 years of age. We do not knowingly collect personal information from children under 13. If we become aware that we have collected personal information from a child under 13, we will take reasonable steps to delete such information.</p>
+        
+        <h3>4. Accounts and wallets</h3>
+        <p>You may need to create an account or connect a wallet. You are responsible for the security of your credentials, wallet keys, devices, backup phrases, and transaction approvals. Beautifull Minds Foundation does not control public blockchains, third-party wallet software, or irreversible on-chain transfers.</p>
+        
+        <h3>5. Acceptable use</h3>
+        <p>You may not misuse the services, infringe intellectual property, harass others, manipulate markets, deploy malicious code, violate sanctions, or exploit minors.</p>
+        
+        <h3>6. Beta features</h3>
+        <p>Any preview, beta, or experimental feature may be modified, suspended, or removed without notice.</p>
+        
+        <h3>7. Fees and taxes</h3>
+        <p>You are responsible for network fees, platform charges, creator royalties, and any applicable taxes.</p>
+        
+        <h3>8. Third-party services</h3>
+        <p>We do not control third-party services and are not responsible for their terms, security, or availability.</p>
+        
+        <h3>9. Disclaimers</h3>
+        <p>Services are provided on an <code>as is</code> and <code>as available</code> basis. We disclaim warranties relating to uptime, asset value, token appreciation, or staking yield.</p>
+        
+        <h3>10. Limitation of liability</h3>
+        <p>To the fullest extent permitted by law, direct damages are capped to the greater of amount paid by you in the prior 12 months or $100.</p>
+        
+        <h3>11. Suspension and termination</h3>
+        <p>We may suspend or terminate access for breach, fraud, sanctions concerns, or legal necessity.</p>
+        
+        <h3>12. Governing law and dispute resolution</h3>
+        <p>This Policy shall be governed by and construed in accordance with the laws of the State of Delaware, United States of America, without regard to its conflict of law principles. Any disputes arising out of or relating to this Policy shall be subject to the exclusive jurisdiction of the state and federal courts located in Delaware, United States.</p>
       </section>
 
       <section id="section-privacy">
         <h2>Privacy policy</h2>
-        <p>The privacy policy should identify the controller and explain collection of account info, wallet addresses, device data, usage events, and blockchain-visible activity. The purpose section should distinguish service delivery, security, personalization, analytics, compliance, and product improvement.</p>
+        <p>Beautifull Minds Foundation is the data controller. We collect account information, wallet addresses, device data, usage events, and blockchain-visible activity for service delivery, security, analytics, compliance, and product improvement.</p>
+        
         <div className="table-wrap">
           <table>
-            <thead><tr><th>Data category</th><th>Examples</th><th>Purpose</th><th>Special notes</th></tr></thead>
+            <thead><tr><th>Data category</th><th>Examples</th><th>Purpose</th></tr></thead>
             <tbody>
-              <tr><td>Account and contact data</td><td>Name, username, email</td><td>Authentication, communications</td><td>Retention schedule stated</td></tr>
-              <tr><td>Wallet and transaction data</td><td>Wallet address, on-chain activity</td><td>Asset delivery, fraud prevention</td><td>Explain public vs off-chain storage</td></tr>
-              <tr><td>Usage and device data</td><td>IP address, browser type, cookies</td><td>Security, analytics</td><td>Cookie consent may apply</td></tr>
-              <tr><td>Sensitive or high-risk data</td><td>Genetic, biometric, inferred traits</td><td>Only where explicitly authorized</td><td>Requires separate safeguards</td></tr>
+              <tr><td>Account and contact data</td><td>Name, username, email</td><td>Authentication, communications</td></tr>
+              <tr><td>Wallet and transaction data</td><td>Wallet address, on-chain activity</td><td>Asset delivery, fraud prevention</td></tr>
+              <tr><td>Usage and device data</td><td>IP address, browser type, cookies</td><td>Security, analytics</td></tr>
+              <tr><td>User content</td><td>Uploads, profile text, reports</td><td>Service operation, moderation</td></tr>
             </tbody>
           </table>
         </div>
+        
+        <h3>Your rights</h3>
+        <p>You may request access, correction, deletion, or portability of your personal data where applicable. To exercise your rights, contact us at <strong>info@bmverse.us</strong>.</p>
+        
+        <h3>Contact Information</h3>
+        <p>If you have any questions about this Privacy Policy or our privacy practices, please contact us at: <strong>Email: info@bmverse.us</strong></p>
       </section>
 
       <section id="section-sensitive">
         <h2>Sensitive data and AI policy</h2>
-        <p>Recommended language: BMverse does not require users to submit genetic, biometric, or health data unless a clearly described feature specifically asks for it and the user has received necessary notices and consent prompts. BMverse does not sell sensitive personal data or use it for solely automated decisions that produce legal or similarly significant effects unless permitted by law.</p>
+        <p><strong>Beautifull Minds Foundation does not intentionally collect or process sensitive personal information</strong>, including genetic data, biometric data, health information, racial or ethnic origin, religious beliefs, political opinions, or other special categories of personal data, except where required by law or with the individual's explicit consent. If sensitive personal information is provided voluntarily, it will be handled in accordance with applicable privacy laws and appropriate security measures.</p>
+        
+        <p><strong>Genetic and Biometric Data:</strong> Beautifull Minds Foundation does not collect, process, or store genetic data or biometric identifiers for the purpose of uniquely identifying individuals.</p>
+        
+        <p>We do not use sensitive data to make solely automated decisions that produce legal or similarly significant effects. Any profiling or AI-assisted features are subject to human review and appropriate safeguards.</p>
+        
         <div className="callout">
-          <div className="callout-title">Publication condition</div>
-          <p>If BMverse is not actually processing genetic or biometric data today, the public policy should say so plainly. The current business materials describe these capabilities aspirationally, creating legal risk if the website implies live processing without operational readiness.</p>
+          <div className="callout-title">Important clarification</div>
+          <p>Beautifull Minds Foundation does not currently process genetic, biometric, or health data. Any future features that would involve such data will be accompanied by explicit notice, consent flows, and additional safeguards as required by law.</p>
         </div>
       </section>
 
       <section id="section-cookies">
         <h2>Cookie and analytics policy</h2>
-        <p>The cookie policy should separate strictly necessary technologies from analytics, personalization, and advertising tools. BMverse should offer a preference center wherever law requires it and should avoid dropping non-essential cookies before consent in consent-based jurisdictions.</p>
+        <p>We use strictly necessary cookies for authentication and security. For analytics and personalization, we obtain consent where required by law. You can manage cookie preferences through your browser settings or our preference center.</p>
+        <p>Blockchain and wallet interactions may generate public on-chain records even if you reject cookies.</p>
       </section>
 
       <section id="section-antverse">
         <h2>ANTverse digital asset policy</h2>
-        <p><strong>1. Scope.</strong> This policy applies to ANTverse items and any related collections made available by BMverse.</p>
-        <p><strong>2. Wallet requirement.</strong> Users are solely responsible for private keys, gas fees, and irreversible blockchain transactions.</p>
+        <p><strong>1. Scope.</strong> This policy applies to ANTverse items and any related collections made available by Beautifull Minds Foundation.</p>
+        <p><strong>2. Wallet requirement.</strong> You are solely responsible for private keys, gas fees, and irreversible blockchain transactions.</p>
         <p><strong>3. No promise of value.</strong> Digital assets are offered for utility, access, or collection purposes only — no guarantee of appreciation or liquidity.</p>
-        <p><strong>4. License grant.</strong> Holder receives a limited license to display associated artwork while validly controlling the asset.</p>
-        <p><strong>5. Prohibited uses.</strong> May not use assets in unlawful, hateful, misleading, or sanctions-evading contexts.</p>
-        <p><strong>6. Royalties and resale.</strong> If royalties are intended, the policy should state the rate and enforcement mechanism.</p>
-        <p><strong>7. Consumer notice.</strong> If the marketplace remains developmental, BMverse should state whether listings are live or simulated.</p>
+        <p><strong>4. License grant.</strong> Upon lawful acquisition, you receive a limited, non-exclusive license to display associated artwork while you validly control the asset.</p>
+        <p><strong>5. Prohibited uses.</strong> You may not use assets in unlawful, hateful, misleading, or sanctions-evading contexts.</p>
+        <p><strong>6. Royalties and resale.</strong> If royalties apply, the rate will be disclosed at the time of minting or purchase. Enforcement may depend on third-party marketplace cooperation.</p>
       </section>
 
       <section id="section-ethx">
         <h2>ETH-X protocol policy</h2>
-        <p><strong>1. Experimental protocol warning.</strong> ETH-X is an evolving environment. Access and participation occur at the user's own risk.</p>
-        <p><strong>2. No investment advice.</strong> Nothing constitutes investment, securities, tax, or financial advice.</p>
-        <p><strong>3. Staking and participation.</strong> Rewards are not guaranteed. Lock-up periods, slashing logic, and exit timing should be disclosed.</p>
+        <p><strong>1. Experimental protocol warning.</strong> ETH-X is an evolving environment. Access and participation occur at your own risk.</p>
+        <p><strong>2. No investment advice.</strong> Nothing in ETH-X materials constitutes investment, securities, tax, or financial advice.</p>
+        <p><strong>3. Staking and participation.</strong> Rewards are not guaranteed. Lock-up periods, slashing logic, and exit timing will be disclosed in the protocol documentation.</p>
         <p><strong>4. Governance.</strong> Governance participation is a community process, not corporate voting or ownership rights.</p>
-        <p><strong>5. Sanctions and restricted use.</strong> Access prohibited for sanctioned persons, embargoed territories, and unlawful actors.</p>
+        <p><strong>5. Sanctions and restricted use.</strong> Access is prohibited for sanctioned persons, embargoed territories, and unlawful actors.</p>
       </section>
 
       <section id="section-community">
@@ -299,34 +332,35 @@ export default function PolicyPage() {
 
       <section id="section-ip">
         <h2>Intellectual property policy</h2>
-        <p>BMverse websites, code, designs, names, logos, and non-user-created assets remain BMverse property. Users retain ownership of content they lawfully create but grant BMverse a license to host, display, and distribute it for service operation. DMCA-style notice procedure should be provided.</p>
+        <p>BMverse websites, code, designs, names, logos, and non-user-created assets remain the property of Beautifull Minds Foundation or its licensors. Users retain ownership of content they lawfully create but grant the Foundation a worldwide, non-exclusive, royalty-free license to host, display, and distribute that content for service operation.</p>
+        <p>For copyright infringement claims, please contact <strong>info@bmverse.us</strong> with a DMCA-style notice.</p>
       </section>
 
       <section id="section-disclosures">
         <h2>Operational and risk disclosures</h2>
-        <p>Risk page should cover software risk, cyber risk, irreversible blockchain transactions, smart contract bugs, bridge failures, governance attacks, regulatory change, and NFT illiquidity.</p>
+        <p>Risks include software bugs, cyber attacks, irreversible blockchain transactions, smart contract vulnerabilities, bridge failures, governance attacks, regulatory changes, and NFT illiquidity.</p>
         <div className="callout">
-          <div className="callout-title">Recommended footer notice</div>
-          <p>"Certain services described across BMverse, ANTverse, and ETH-X are experimental, unavailable in some jurisdictions, or subject to separate launch conditions. Digital assets and blockchain participation involve risk, and no statement on this site should be understood as a promise of value, yield, or uninterrupted availability."</p>
+          <div className="callout-title">Risk warning</div>
+          <p>Certain services described across BMverse, ANTverse, and ETH-X are experimental, unavailable in some jurisdictions, or subject to separate launch conditions. Digital assets and blockchain participation involve risk, and no statement on this site should be understood as a promise of value, yield, or uninterrupted availability.</p>
         </div>
       </section>
 
       <section id="section-checklist">
-        <h2>Pre-publication checklist</h2>
+        <h2>Policy information</h2>
         <div className="table-wrap">
           <table>
-            <thead><tr><th>Field to confirm</th><th>Why it matters</th><th>Current status</th></tr></thead>
+            <thead><tr><th>Item</th><th>Status</th></tr></thead>
             <tbody>
-              <tr><td>Legal entity name and address</td><td>Required for enforceability</td><td>Placeholder</td></tr>
-              <tr><td>Official contact emails</td><td>Privacy requests, abuse reports</td><td>Placeholder</td></tr>
-              <tr><td>Jurisdictions served or blocked</td><td>Consumer law, sanctions</td><td>Placeholder</td></tr>
-              <tr><td>Whether genetic/biometric processing is live</td><td>Changes sensitive-data obligations</td><td>Needs explicit yes/no</td></tr>
-              <tr><td>Marketplace status</td><td>Live sales vs demo</td><td>Needs confirmation</td></tr>
-              <tr><td>Royalty structure and license scope</td><td>Prevents disputes</td><td>Placeholder</td></tr>
-              <tr><td>Dispute resolution model</td><td>Arbitration clauses vary by jurisdiction</td><td>Placeholder</td></tr>
+              <tr><td>Legal entity</td><td>Beautifull Minds Foundation</td></tr>
+              <tr><td>Contact email</td><td>info@bmverse.us</td></tr>
+              <tr><td>Governing law</td><td>Delaware, United States</td></tr>
+              <tr><td>Age requirement</td><td>13+</td></tr>
+              <tr><td>Genetic/biometric processing</td><td>Not collected or processed</td></tr>
+              <tr><td>Marketplace status</td><td>Refer to explore page for current live/demo status</td></tr>
             </tbody>
           </table>
         </div>
+        <p>This policy is effective as of the date of publication. Updates will be posted on this page.</p>
       </section>
 
       <footer>
@@ -334,14 +368,12 @@ export default function PolicyPage() {
           <h2>Sources</h2>
           <ol style={{paddingLeft:'1.2rem', fontSize:'0.85rem', color:'#a0a0a0'}}>
             <li><a href="https://bmverse.us" target="_blank" rel="noopener">https://bmverse.us</a> - BMverse homepage</li>
-            <li><a href="https://bmverse.us/explore/" target="_blank" rel="noopener">https://bmverse.us/explore/</a> - Explore page with ANTverse, tiers, mutation scores</li>
+            <li><a href="https://bmverse.us/explore/" target="_blank" rel="noopener">https://bmverse.us/explore/</a> - Explore page</li>
             <li><a href="https://x.com/bmverseio" target="_blank" rel="noopener">https://x.com/bmverseio</a> - BMverse X profile</li>
-            <li>User-uploaded document - Beautifull_Minds_bp_05-20-2025.pdf</li>
-            <li>User-uploaded document - Beautifull Minds Traits Algorithm Diagram (2) - Copy.pdf</li>
           </ol>
         </div>
         <div style={{textAlign:'center', fontSize:'0.76rem', color:'#a0a0a0', marginTop:'1.75rem'}}>
-          Generated by Trae Work · 2026-06-10
+          Beautifull Minds Foundation · Policy last updated: 2026-06-10
         </div>
       </footer>
     </div>
